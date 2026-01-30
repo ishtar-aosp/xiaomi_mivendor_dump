@@ -1,0 +1,66 @@
+{
+    "HOOK_GROUP": [
+        {
+            "group_id"  : 1,
+            "group_name": "ProbeEEPROM",
+            "case"      : [1]
+        },
+        {
+            "group_id"  : 2,
+            "group_name": "IsAbnormalImage",
+            "case"      : [2]
+        },
+        {
+            "group_id"  : 3,
+            "group_name": "IsFaceUnlockSecure",
+            "case"      : [3]
+        }
+
+    ],
+
+    "HOOK_CASE" : [
+        {
+            "case_id"   : 1,
+            "case_name" : "ProbeEEPROM",
+            "hook_function" : ["ProbeEEPROMHook"]
+        },
+        {
+            "case_id"   : 2,
+            "case_name" : "IsAbnormalImage",
+            "hook_function" : ["IsAbnormalImageHook"]
+        },
+        {
+            "case_id"   : 3,
+            "case_name" : "IsFaceUnlockSecure",
+            "hook_function" : ["IsFaceUnlockSecureHook"]
+        }
+    ],
+
+    "HOOK_FUNCTION":
+    [
+        {
+            "hook_name": "ProbeEEPROMHook",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
+            "source_function_address": "_ZN4CamX21ImageSensorModuleData11ProbeEEPROMEPNS_12HwSensorInfoEPKNS_16HwDeviceTypeInfoE",
+            "target_function_address": "_ZN4CamX15ProbeEEPROMHookEPvPNS_12HwSensorInfoEPKNS_16HwDeviceTypeInfoE",
+            "hook_type": 2
+        },
+        {
+            "hook_name": "IsAbnormalImageHook",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
+            "source_function_address": "_ZN4CamX9CNodeImpl8DumpDataEPNS_20NodeFenceHandlerDataE",
+            "target_function_address": "_ZN4CamX19IsAbnormalImageHookEPvPNS_20NodeFenceHandlerDataE",
+            "hook_type": 1
+        },
+        {
+            "hook_name": "IsFaceUnlockSecureHook",
+            "source_lib_name": "/odm/lib64/hw/camera.qcom.so",
+            "target_lib_name": "/odm/lib64/com.xiaomi.camx.hook.so",
+            "source_function_address": "_ZN4CamX9CNodeImpl8DumpDataEPNS_20NodeFenceHandlerDataE",
+            "target_function_address": "_ZN4CamX22IsFaceUnlockSecureHookEPvPNS_20NodeFenceHandlerDataE",
+            "hook_type": 1
+        }
+    ]
+}

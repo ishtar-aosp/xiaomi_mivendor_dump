@@ -1,0 +1,77 @@
+{
+    "SENSORNAME_ROLEID_MAP":[
+        {
+            "sensorName": "ishtar_semco_imx989_wide",
+            "roleID": 0
+        },
+        {
+            "sensorName": "ishtar_semco_imx989_p24c256f_wide_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "ishtar_semco_imx989_ak7316_wide_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "ishtar_wide_bu24532_ois",
+            "roleID": 0
+        },
+        {
+            "sensorName": "ishtar_sunny_ov32c_front",
+            "roleID":1
+        },
+        {
+            "sensorName": "ishtar_sunny_ov32c_gt24p64e_front_eeprom",
+            "roleID":1
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_ultra",
+            "roleID": 21
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_p24c128f_ultra_eeprom",
+            "roleID": 21
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_ak7316_ultra_actuator",
+            "roleID": 21
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_tele3x",
+            "roleID": 20
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_p24c128f_tele3x_eeprom",
+            "roleID": 20
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_ak7314_tele3x_actuator",
+            "roleID": 20
+        },
+        {
+            "sensorName": "ishtar_tele3x_bu24721_ois",
+            "roleID": 20
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_tele5x",
+            "roleID": 23
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_sem1217s_tele5x_eeprom",
+            "roleID": 23
+        },
+        {
+            "sensorName": "ishtar_semco_imx858_sem1217s_tele5x_actuator",
+            "roleID": 23
+        },
+        {
+            "sensorName": "ishtar_tele5x_sem1217s_ois",
+            "roleID": 23
+        }
+    ],
+
+    "TOMBSTONE_FUNCTION":{
+        "isEnable": true,
+        "fileNumber": 20
+    }
+}
