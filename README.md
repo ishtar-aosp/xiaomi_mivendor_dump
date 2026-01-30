@@ -1,0 +1,20 @@
+## missi-user 16 BP2A.250605.031.A3 OS3.0.3.0.WMACNXM release-keys
+- Manufacturer: xiaomi
+- Platform: kalama
+- Codename: mivendor
+- Brand: Xiaomi
+- Flavor: missi-user
+- Release Version: 16
+- Kernel Version: 5.15.178
+- Id: BP2A.250605.031.A3
+- Incremental: OS3.0.3.0.WMACNXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: zh-CN
+- Screen Density: undefined
+- Fingerprint: Xiaomi/mivendor_sm8550_cn/mivendor:13/TKQ1.221114.001/OS3.0.3.0.WMACNXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-16-BP2A.250605.031.A3-OS3.0.3.0.WMACNXM-release-keys
+- Repo: xiaomi_mivendor_dump
