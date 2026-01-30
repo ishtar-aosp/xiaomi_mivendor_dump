@@ -1,0 +1,18 @@
+{
+  "singleKeyRules": [
+    {
+      "primaryKey": 27,
+      "singlePress": [
+        {
+          "type": "longPress",
+          "action": "volumekey_launch_camera",
+          "functions": [
+            {
+              "global": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
